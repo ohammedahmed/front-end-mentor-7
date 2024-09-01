@@ -365,5 +365,92 @@ svg:hover path{
 @media (max-width:520px) {
     .logo{
         width:100px;
+        margin-bottom:50px;
+    }
+
+    .h1-2{
+        margin-bottom:40px;
+    }
+
+    .third-p{
+        width:400px;
+    }
+
+    .buttons , .buttons-2{
+        display:flex;
+        flex-direction:column;
+        margin-top:70px;
+    }
+
+    .btn-1 , .btn-3{
+        margin:0;
+        width:270px;
+    }
+
+    .btn-2 , .btn-4{
+        margin:0;
+        width:270px;
+        margin-top:25px;
+    }
+
+    .p-end{
+        width:400px;
+    }
+
+    .image-2{
+        margin:50px;
+    }
+
+    .computer , .ipad-img{
+        width:350px;
+    }
+
+    .footer{
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .logo-page{
+        margin-top:50px;
+        margin-bottom:30px;
+    }
+
+    .logo-img{
+        width:70px;
+    }
+
+    .footer-1{
+        display:flex;
+        align-items:center;
+        margin:15px;
+    }
+
+    .footer-2{
+        display:flex;
+        align-items:center;
+        justify-content:flex-start;
+        margin-bottom:30px;
+        flex-direction:row;
+    }
+
+    .the-same-p{
+        margin-top:25px;
+    }
+
+    .p-7{
+        margin:0;
+    }
+
+    .icon-footers{
+        margin-bottom:30px;
+    }
+
+    .footer-3{
+        margin:0;
+        margin-right:20px;
+        margin-left:20px;
     }
 }
