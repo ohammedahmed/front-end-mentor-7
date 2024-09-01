@@ -1,0 +1,363 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+.logo-image{
+    background-image:url(../images/bg-header-desktop.png);
+    width:100%;
+    height:300px;
+    flex-direction:column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    /* justify-content:space-between; */
+}
+
+.logo{
+    justify-self:center;
+    align-self:center;
+}
+
+.text-1{
+    position:absolute;
+    bottom:0;
+}
+
+.first-h1{
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 700;
+    font-style: italic;
+    text-align:center;
+    color:hsl(210, 10%, 33%);
+}
+
+.first-p{
+    text-align:center;
+    margin-top:20px;
+    max-width:550px;
+    color:hsl(201, 11%, 66%);
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 500;
+    font-style: italic;
+    text-align:center;
+    line-height:27px;
+}
+
+.text-2{
+    display:flex;
+    justify-content:center;
+}
+
+.buttons , .buttons-2{
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:100px;
+}
+
+.btn-1 , .btn-3{
+    border:none;
+    background-color:hsl(171, 66%, 44%);
+    color:white;
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 600;
+    font-style: italic;
+    padding:15px 35px;
+    border-radius:30px;
+    margin-right:15px;
+    box-shadow:3px 5px 20px hsl(171, 66%, 44%);
+    cursor:pointer;
+    transition:.3s;
+}
+
+.btn-1:hover , .btn-3:hover{
+    background-color:hsl(171, 55%, 67%);
+    box-shadow:0 0 0;
+}
+
+.btn-2 , .btn-4{
+    border:none;
+    background-color:hsl(233, 100%, 69%);
+    color:white;
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 600;
+    font-style: italic;
+    padding:15px 35px;
+    border-radius:30px;
+    box-shadow:3px 5px 20px hsl(233, 100%, 69%);
+    cursor:pointer;
+    transition:.3s
+}
+
+.btn-2:hover , .btn-4:hover{
+    background-color:hsl(233, 100%, 77%);
+    box-shadow:0 0 0;
+}
+
+.h1-2{
+    margin-bottom:20px;
+}
+
+.second-p{
+    color:hsl(201, 11%, 66%);
+    text-align:center;
+    width:530px;
+    line-height:27px;
+}
+
+.text-3{
+    margin-bottom:60px;
+}
+
+.sec-1{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    margin-bottom:80px;
+}
+
+.h1-3 , .h1-4 , .h1-5{
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 700;
+    font-style: italic;
+    color:hsl(210, 10%, 33%);
+    margin-bottom:15px;
+}
+
+.p-3 , .p-4 , .p-5{
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 500;
+    font-style: italic;
+    color:hsl(201, 11%, 66%);
+    line-height:30px;
+}
+
+.text-4{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-right:70px;
+    height:450px;
+    justify-content:space-around;
+}
+
+.first-sec-1 , .secon-sec-1 , .third-sec-1{
+    max-width:350px;
+
+}
+
+.part-1{
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    margin-bottom:80px;
+}
+
+
+/* -------------------- sec-2 -------------------- */
+
+.sec-2{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.sec-2-image{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.p-6{
+    margin-top:10px;
+    width:100%;
+}
+
+.sec-2-text{
+    margin-bottom:50px;
+}
+
+.logos{
+    display:flex;
+    align-items:center;
+    margin-bottom:200px;
+}
+
+.blacklist , .text , .eye{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.blacklist-img , .text-img , .eye-img {
+    margin-bottom:35px;
+}
+
+.logos-h1{
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 600;
+    font-style: italic;
+    color:hsl(210, 10%, 33%);
+    margin-bottom:20px;
+}
+
+.logos-p{
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 400;
+    font-style: italic;
+    color:hsl(201, 11%, 66%);
+    max-width:350px;
+    text-align:center;
+    line-height:30px;
+}
+
+.logos-2{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    width:100%;
+    margin-bottom:200px;
+}
+
+.sec-3-text{
+    width:100%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    margin-bottom:50px;
+}
+
+/* ----------------- footer --------------------- */
+
+.footer{
+    background-color:hsl(0, 0%, 93%);
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.logo-img{
+    width:30px;
+}
+
+.footer-1{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+
+.the-same-p{
+    font-family: "Bai Jamjuree", system-ui;
+    font-weight: 500;
+    font-style: italic;
+    color:hsl(210, 10%, 33%);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.the-same-p:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+.p-7{
+    margin-bottom:10px;
+}
+
+.footer-2{
+    height:50px;
+}
+
+.icon-footers{
+    display:flex;
+    align-items:center;
+}
+
+.footer-3{
+    margin-left:20px;
+}
+
+path , svg{
+    transition:.3s;
+}
+
+
+svg:hover path{
+    fill:hsl(171, 66%, 44%);
+}
+
+
+
+
+
+@media(max-width:1200px) {
+    .sec-1{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:200px
+    }
+    .h1-3 , .h1-4 , .h1-5{
+        text-align:center;
+    }
+    .p-3 , .p-4 , .p-5{
+        text-align:center;
+    }
+
+
+    .computer{
+        max-width:500px;
+    }
+
+    .text-4{
+        padding:0;
+    }
+
+    .ipad-img{
+        max-width:500px;
+    }
+
+    .sec-2-image{
+        margin-bottom:200px;
+    }
+
+    .logos{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .blacklist , .text , .eye{
+        margin:0;
+        margin-top:70px;
+    }
+
+    .blacklist{
+        margin-top:70px;
+    }
+
+    .logos-2{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .google , .ibm , .microsoft , .hp , .vector{
+        margin-top:60px;
+    }
+}
