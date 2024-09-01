@@ -361,3 +361,9 @@ svg:hover path{
         margin-top:60px;
     }
 }
+
+@media (max-width:520px) {
+    .logo{
+        width:100px;
+    }
+}
